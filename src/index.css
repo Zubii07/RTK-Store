@@ -1,4 +1,4 @@
-/* Global Styles */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -8,41 +8,41 @@ body {
   background: #f9f9f9; /* Lighter background for better readability */
 }
 
-/* Image Styling */
+
 img {
   height: 80px;
-  width: auto; /* Maintain aspect ratio */
-  border-radius: 8px; /* Softer edges for images */
+  width: auto; 
+  border-radius: 8px; 
 }
 
-/* Card Styling */
+
 .card {
   background: white;
   padding: 20px;
   text-align: center;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   transition: transform 0.2s ease-in-out;
 }
 
 .card:hover {
-  transform: translateY(-5px); /* Lift effect on hover */
+  transform: translateY(-5px); 
 }
 
-/* Product Grid */
+
 .productsWrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
   gap: 20px;
   padding: 20px 0;
 }
 
-/* Button Styling */
+
 .btn {
   border: none;
   outline: none;
   background: #764abc;
-  padding: 10px 15px; /* Bigger padding for better clickability */
+  padding: 10px 15px; 
   color: #fff;
   border-radius: 8px;
   font-weight: bold;
@@ -52,18 +52,18 @@ img {
 
 .btn:hover {
   background: #513282;
-  transform: scale(1.05); /* Scale effect on hover */
+  transform: scale(1.05); 
 }
 
-/* Heading Styling */
+
 .heading {
   padding: 25px 0;
-  text-align: center; /* Center-align the heading */
+  text-align: center; 
   font-size: 2rem;
   color: #333;
 }
 
-/* Cart Count */
+
 .cartCount {
   font-weight: bold;
   text-transform: uppercase;
@@ -71,7 +71,7 @@ img {
   color: #764abc;
 }
 
-/* Navbar Links */
+
 .navLink {
   text-decoration: none;
   color: black;
@@ -84,7 +84,7 @@ img {
   color: #764abc;
 }
 
-/* Cart Item Styling */
+
 .cartCard {
   display: flex;
   align-items: center;
@@ -93,10 +93,10 @@ img {
   margin-bottom: 20px;
   padding: 14px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Consistent shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-/* Logo */
+
 .logo {
   padding-top: 0px;
   font-size: 1.5rem;
@@ -104,7 +104,7 @@ img {
   color: #764abc;
 }
 
-/* Responsive Design */
+
 @media (max-width: 1024px) {
   .productsWrapper {
     grid-template-columns: repeat(3, 1fr); /* 3 columns on medium screens */
